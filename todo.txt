@@ -1,0 +1,13 @@
+* add learna & move testes
+* construct a proof of concept mvp
+    * 
+* respect gitignore
+* https://github.com/tj/commander.js/
+* replace hbs loader with ast one ?
+* ignore a minified js code, https://mariusschulz.com/blog/detecting-minified-javascript-code
+* dot attributes 
+    * https://graphviz.org/doc/info/attrs.html#k:style
+    * 
+* https://github.com/glejeune/node-graphviz
+* https://www.graphviz.org/pdf/dotguide.pdf
+* https://dreampuf.github.io/GraphvizOnline/

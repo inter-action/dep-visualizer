@@ -1,0 +1,16 @@
+
+
+{{#partial "script"}}
+    {{#if mweb.pdpUnit.travelArea}}
+        {{> legacyddp/travel/pdp_script}}
+    {{else}}
+        {{> legacyddp/script}}
+    {{/if}}
+
+    {{> layout/include/scriptForWidget}}
+    {{> legacyddp/travel/scriptForWebLog}}
+    
+{{/partial}}
+
+{{!-- layout template --}}
+{{> layout/nm/webBase }}

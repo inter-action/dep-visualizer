@@ -1,0 +1,8 @@
+# This is an example Mocha config containing every Mocha option plus others
+# https://github.com/mochajs/mocha/blob/master/example/config/.mocharc.yml
+inline-diffs: false
+# needs to be used with grep or fgrep
+# invert: false
+require: 'ts-node/register'
+spec: 'test/**/*.test.ts' # the positional arguments!
+timeout: false # same as "no-timeout: true" or "timeout: 0"
